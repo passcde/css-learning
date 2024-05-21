@@ -18,7 +18,15 @@ p{
 	font-size: 300%;
 }
 body{
-	background-image:url("toyota supra.jpg");
-	background-repeat:no-repeat;
+	background-image:url("Nissan GTR.jpg");
+	background-repeat:repeat-y;
 	background-size: cover;
+}
+.vans{
+	border-style: groove;
+	border-width: 10px;
+	border-color: red green blue yellow;
+}
+#vans{
+	border-bottom: 6px groove blue;/*css shorthand element*/
 }
