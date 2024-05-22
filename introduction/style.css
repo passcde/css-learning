@@ -16,6 +16,7 @@ p{
 	color: greenyellow;
 	opacity: 0.6;
 	font-size: 300%;
+	outline-style: double;
 }
 body{
 	background-image:url("Nissan GTR.jpg");
@@ -29,4 +30,10 @@ body{
 }
 #vans{
 	border-bottom: 6px groove blue;/*css shorthand element*/
+}
+div{
+	padding: 50px;
+	width: 300px;
+	background-color: yellow;
+	box-sizing: border-box;
 }
