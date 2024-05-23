@@ -1,5 +1,6 @@
 body{
 	background-color: skyblue;
+/*	font-family: "sofia",sans-serif;*/
 }
 h1{
 	color: blue;
@@ -36,4 +37,14 @@ div{
 	width: 300px;
 	background-color: yellow;
 	box-sizing: border-box;
+}
+#coon{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
