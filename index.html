@@ -33,26 +33,56 @@
 		}
 		.relative {
             position: relative;
-            width: 400px;
+            width: 300px;
             height: 200px;
-            border:solid green;
+            background-color: purple;
+            
 		}
 		.absolute {
+			position:relative;
+			width: 200px;
+			
+			height: 150px;
+			background-color: indigo ;
+			top: -150px;
+			left: 300px;
+		}
+		.static{
 			position: absolute;
+		    left: 75px;
+		    top: 50px;
+			width: 50px;
+			height: 50px;
+			background-color: violet;
+		
+		}
+		.circle{
+			position:relative;
+			border-radius: 50%;
+			background-color: black;
 			width: 100px;
-			left: 10px;
-			top: 50px;
-			height: 200px;
-			border:solid lightblue ;
+			height: 100px;
+			top: -200px;
+			left: 85px;
+
+		}
+		.circle2{
+		position:relative;
+			border-radius: 50%;
+			background-color: black;
+			width: 70px;
+			height: 70px;
+			top: -285px;
+			left: 350px;	
 		}
 	</style>	
 </head>
 <body>
-<h1 class="vans">DISPLAY NONE</h1>
+<!-- <h1 class="vans">DISPLAY NONE</h1> -->
 <h1 class="gic">VISIBILTY HIDDEN</h1>
 <h1>DISPLAY PROPERTY</h1><br><br>
 <h1>STUDENTS LOGINS</h1>
-<table>
+<!-- <table>
 	<tr>
 		<th>students</th>
 		<th>course taken</th>
@@ -78,11 +108,17 @@
 		<td>Teaching</td>
 		<td>6500</td>       
 	</tr>
-</table>
-<img src="GTR-FIRE.jpg" alt="GTR" style="width:auto; "><br><br>
-<div class="relative">bigger box
-<div class="absolute">smaller box </div>
+</table> -->
+<!-- <img src="GTR-FIRE.jpg" alt="GTR" style="width:auto; "><br><br> -->
+<div class="relative">
+</div>
+<div class="absolute">
+	<div class="static">
 
 </div>
+</div>
+
+<div class="circle"></div>
+<div class="circle2" ></div>
 </body>
 </html>
